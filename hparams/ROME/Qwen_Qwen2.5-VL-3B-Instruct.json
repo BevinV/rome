@@ -20,7 +20,7 @@
             10
         ]
     ],
-    "rewrite_module_tmp": "model.layers.5.mlp.down_proj.weight",
+    "rewrite_module_tmp": "model.layers.5.mlp.down_proj",
     "layer_module_tmp": "model.layers.{}",
     "mlp_module_tmp": "model.layers.{}.mlp",
     "attn_module_tmp": "model.layers.{}.self_attn",
