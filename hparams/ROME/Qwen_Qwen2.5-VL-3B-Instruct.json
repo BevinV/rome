@@ -22,7 +22,7 @@
     ],
     "rewrite_module_tmp": "model.language_model.layers.{}.mlp.down_proj",
     "layer_module_tmp": "model.language_model.layers.{}",
-    "mlp_module_tmp": "model.language_model.{}.mlp",
+    "mlp_module_tmp": "model.language_model.layers.{}.mlp",
     "attn_module_tmp": "model.language_model.layers.{}.self_attn",
     "ln_f_module": "model.norm",
     "lm_head_module": "lm_head",
