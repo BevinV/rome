@@ -20,10 +20,10 @@
             10
         ]
     ],
-    "rewrite_module_tmp": "model.layers.5.mlp.down_proj",
-    "layer_module_tmp": "model.layers.{}",
-    "mlp_module_tmp": "model.layers.{}.mlp",
-    "attn_module_tmp": "model.layers.{}.self_attn",
+    "rewrite_module_tmp": "model.language_model.layers.{}.mlp.down_proj",
+    "layer_module_tmp": "model.language_model.layers.{}",
+    "mlp_module_tmp": "model.language_model.{}.mlp",
+    "attn_module_tmp": "model.language_modellayers.{}.self_attn",
     "ln_f_module": "model.norm",
     "lm_head_module": "lm_head",
     "mom2_dataset": "wikipedia",
