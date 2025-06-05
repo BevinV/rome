@@ -114,7 +114,7 @@ def execute_rome(
         with torch.no_grad():
             # Determine correct transposition of delta matrix
             weight_name = f"{hparams.rewrite_module_tmp.format(layer)}.weight"
-            upd_matrix = left_vector.unsqueeze(1) @ right_vector.unsqueeze(0)
+            upd_matrix = left_vector.float().unsqueeze(1) @ right_vector.float().unsqueeze(0)
             upd_matrix = upd_matrix_match_shape(upd_matrix, weights[weight_name].shape)
 
             # Update model weights and record desired changes in `delta` variable
